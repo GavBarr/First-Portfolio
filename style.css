@@ -1,0 +1,186 @@
+* {margin: 0; padding: 0;}
+
+
+body
+{
+	background-image: url('../img/oregon-back.jpg');
+}
+
+
+
+h1
+{
+	font-family: Stencil Std, fantasy;
+	font-size: 80px;
+	background-color: rgb(153, 153, 255);
+	animation-name: header;
+	animation: header 5s infinite;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: rgb(0, 26, 77);
+}
+
+button
+{
+	animation-name: song;
+	animation: header 5s infinite;
+	font-family: Stencil Std, fantasy;
+	font-size: 40px;
+	background-color: rgb(230, 204, 255);
+	border-radius: 25px;
+	position: relative;
+	top: -1610px;
+	left: 1000px;
+	color: rgb(0, 26, 77);
+}
+
+@keyframes header
+{
+  from {background-color: rgb(255, 179, 255);}
+  to {background-color: rgb(153, 153, 255);}
+	
+}
+
+@keyframes song
+{
+  from {background-color: rgb(255, 179, 255);}
+  to {background-color: rgb(230, 204, 255);}
+	
+}
+
+.navbar ul
+{
+
+	background-color: rgb(153, 153, 255);
+	
+}
+
+.navbar li,a
+{
+	font-family: Stencil Std, fantasy;
+	font-size: 60px;
+	color: rgb(0, 26, 77);
+	padding: 1px 46px 5px 11px;	
+	display: inline-block;
+	text-decoration: none;
+	
+}
+
+
+li,a:hover
+{
+	color: white;
+}
+
+div.picture2 img
+{
+	position: relative;
+	left: 850px;
+	top: -600px;
+	border-style: solid;
+	border-color: rgb(153, 153, 255);
+	border-width: 15px;
+}
+
+div.picture4 img
+{
+	position: relative;
+	align-items: center;
+	border-style: solid;
+	border-color: rgb(153, 153, 255);
+	border-width: 15px;
+	width: 700px;
+	height: 800px;
+	
+}
+
+
+div.picture img
+{
+	position:relative;
+	border-style: solid;
+	border-color: rgb(153, 153, 255);
+	border-width: 15px;
+
+}
+
+div.welcome-paragraph p
+{
+
+	font-family: Stencil Std, fantasy;
+	font-size: 50px;
+	color: rgb(0, 26, 77);
+	background-color: rgb(230, 204, 255);
+	border-radius: 25px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	
+	
+}
+
+mark
+{
+	background-color: rgb(230, 204, 255);
+	color: rgb(0, 26, 77);
+	
+
+}
+
+div.home p
+{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	font-size: 25px;
+	font-family: Stencil Std, fantasy;
+	color: rgb(0, 26, 77);
+}
+
+
+div.about p
+{
+	padding-left: 850px;
+	box-sizing: border-box;
+	top: -1600px;
+	position: relative;
+	font-family: Stencil Std, fantasy;
+	font-size: 25px;
+	word-wrap: break-word;
+	color: rgb(0, 26, 77);
+}
+
+.list
+{
+	border: 10px solid rgb(0, 26, 77);
+	padding: 30px;
+}
+
+div.projects 
+{
+	text-align: center;
+	font-family: Stencil Std, fantasy;
+	font-size: 25px;
+	word-wrap: break-word;
+	color: rgb(0, 26, 77);
+	border-radius: 25px;
+	display: inline-block;
+	background-color: rgb(230, 204, 255);
+	
+
+}
+
+div.reflection p
+{
+	text-align: center;
+	font-family: Stencil Std, fantasy;
+	font-size: 25px;
+	word-wrap: break-word;
+	color: rgb(0, 26, 77);
+	background-color: rgb(230, 204, 255);
+	border-radius: 25px;
+	
+	
+}
